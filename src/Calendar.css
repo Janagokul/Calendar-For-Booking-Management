@@ -1,0 +1,19 @@
+/* mobileView will be display and desktopView will be hide */
+@media(max-width: 959px){
+    
+    .DesktopView{
+        display: none;
+    }
+ }
+
+
+ /* desktopView will be display and mobileView will be hide */
+ @media(min-width:960px) {
+    .MobileView{
+        display: none;
+       }
+ }
+
+
+
+ 

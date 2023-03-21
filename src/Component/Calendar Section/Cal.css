@@ -1,0 +1,199 @@
+
+
+
+
+
+
+
+ /* for mobile screen  */
+
+@media (max-width:600px) {
+.cal{
+  margin-top: 15% !important;
+}
+/* All Date button except sellected date or current active  date  */
+ 
+.css-156tkzh-MuiButtonBase-root-MuiPickersDay-root{
+  font-size: 1rem !important;
+  font-weight: 700!important;
+  height: 45px !important;
+  width: 44px !important;
+}
+}
+
+
+/* for tablet screen  */
+@media only screen and (min-width: 601px) and (max-width: 960px) {
+  html{
+    font-size: 60% !important;
+  }
+  .cal{
+    margin-top: 0 !important;
+    padding-bottom:10% ;
+  }
+  
+  .css-nen11g-MuiStack-root{
+    min-width: 95%;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+  }
+  /* All Date button except sellected date or current active  date  */
+  .css-156tkzh-MuiButtonBase-root-MuiPickersDay-root{
+    font-size: 1.5rem !important;
+    font-weight: 700!important;
+    height: 50px !important;
+    width: 50px !important;
+  }
+  .css-1cafy48-MuiPickersSlideTransition-root-MuiDayCalendar-slideTransition{
+    min-height:60vh !important; 
+    
+  }
+
+ /* sellected date or current active  date button  */
+  .css-1hiwve1-MuiButtonBase-root-MuiPickersDay-root{
+     
+        margin: auto !important;
+        font-size: 1rem !important;
+        font-weight: 520 !important;
+        height: 50px !important;
+        width: 50px !important;
+       
+    }
+    .css-1hiwve1-MuiButtonBase-root-MuiPickersDay-root :hover{
+        background-color: #a1c4fd;
+    }
+
+  }
+
+
+
+@media (min-width:960px) {
+  
+
+  .css-nen11g-MuiStack-root{
+     min-width: 95%;
+     height: 80%;
+    
+     justify-content: center;
+     align-items: center;
+  }
+  /* calendar wrapper  */
+  .css-cwhad8-MuiDateCalendar-root{
+    
+      min-height: 90%;
+      min-width: 100%;
+      
+  }
+  .css-1vooibu-MuiSvgIcon-root{
+    
+      font-size: 2.7rem !important;
+      font-weight: bold; 
+  }
+  .css-kg9q0s-MuiButtonBase-root-MuiIconButton-root-MuiPickersArrowSwitcher-button{
+      font-size: 3rem !important;
+      
+      font-weight: bold;
+       margin: 0 3%;
+  }
+
+  .css-1nkg345-MuiButtonBase-root-MuiIconButton-root-MuiPickersArrowSwitcher-button{
+    font-size: 3rem !important;
+    font-weight: 700;
+    margin: 0 3%;
+  }
+
+  /* nevigate month and year and arrow buttom row  wrapper */
+  .css-nk89i7-MuiPickersCalendarHeader-root{
+   height: 40%;
+      margin: 20px 0;
+
+
+  }
+  /* month and year name  */
+  .css-dplwbx-MuiPickersCalendarHeader-label{
+    font-size: 2.3rem !important;
+  
+    font-weight: 530;
+}
+
+/* navigate year button  */
+  .css-1tkx1wf-MuiSvgIcon-root-MuiPickersCalendarHeader-switchViewIcon{
+      font-size: 3rem !important;
+     
+      font-weight: 700 !important;
+  }
+
+
+ /* arrow button to negative months; */
+ .css-i4bv87-MuiSvgIcon-root{
+  font-size: 3rem !important;
+ 
+  font-weight: 700 !important;
+}
+/* week day row  */
+  .css-i5q14k-MuiDayCalendar-header{
+    
+      margin: 2% 0;
+      
+  }
+
+/* week day single Button  */
+  .css-rhmlg1-MuiTypography-root-MuiDayCalendar-weekDayLabel{
+    
+      min-height: 10% !important;
+      margin: auto !important;
+      font-size: 2rem !important;
+      font-weight: 500 !important;
+  }
+  /* date wrapper  */
+  .css-1cafy48-MuiPickersSlideTransition-root-MuiDayCalendar-slideTransition{
+      min-height:60vh !important;
+     
+     
+  }
+
+  /* date row  */
+  .css-flbe84-MuiDayCalendar-weekContainer{
+    
+      margin: 5% 0 !important;
+  }
+
+
+  .css-1hy9kwh-MuiPickersDay-root{
+      min-height: 15% !important;
+      margin: auto !important;
+      font-size: 2.2rem !important;
+      font-weight: 700 !important;
+  }
+
+  /* All Date button except sellected date or current active  date  */
+  .css-156tkzh-MuiButtonBase-root-MuiPickersDay-root{
+      min-height: 15% !important;
+     
+      margin: auto !important;
+      font-size: 2.2rem !important;
+      font-weight: 700 !important;
+  }
+
+  /* sellected date or current active  date button  */
+  .css-1hiwve1-MuiButtonBase-root-MuiPickersDay-root{
+      margin: auto !important;
+     
+      font-size: 2.1rem !important;
+      font-weight: 520 !important;
+      background-color: #1081c3 ;
+     
+  }
+  .css-1hiwve1-MuiButtonBase-root-MuiPickersDay-root :hover{
+    background-color: #a1c4fd;
+}
+
+
+  .css-1beqopj-MuiPickersYear-yearButton{
+    
+    font-size: 2rem !important;
+  }
+ 
+ 
+}
