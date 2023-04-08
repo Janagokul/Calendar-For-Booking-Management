@@ -12,8 +12,7 @@ function Calendar() {
 
   const [selectedDate, setSelectedDate] = useState(dayjs(new Date()))
   const [selectedTime, setSelectedTime] = useState('')
-  // console.log(selectedTime);
-  // console.log(selectedDate);
+  
 
   return (
 
